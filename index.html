@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+          content="1С-ЭПД — сервис для обмена транспортными накладными, путевыми листами и другими перевозочными документами в электронном виде между всеми участниками перевозок.">
+    <meta name="keywords" content="1С-ЭПД, 1С ЭПД, 1С-ЭДО.ЭПД, электронные перевозочные документы, переход на ЭПД">
+    <link rel="stylesheet" href="assets/fonts/fonts.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <title>Электронные перевозочные документы в&nbsp;одном окне&nbsp;1С</title>
+</head>
+<body>
+<header class="header">
+    <div class="header__container container">
+        <a class="header__reference link" href="/" title="На главную">
+            <img class="header__logo" src="assets/images/logo.svg" alt="Логотип 1С-ЭПД">
+        </a>
+        <nav class="header__navigation">
+            <ul class="header__items list">
+                <li class="header__item">
+                    <a class="header__link link js-anchor" href="#anchor-about" title="О сервисе">
+                        О сервисе
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a class="header__link link js-anchor" href="#anchor-advantages" title="Преимущества">
+                        Преимущества
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a class="header__link link js-anchor" href="#anchor-rates" title="Тарифы">
+                        Тарифы
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a class="header__link link js-anchor" href="#anchor-questions" title="Вопросы">
+                        Вопросы
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <a class="header__button link button button--black" data-bs-toggle="modal" href="#anchor-modal" role="button">
+            Заказать звонок
+        </a>
+    </div>
+</header>
+
+<main>
+    <section class="promo section-mb">
+        <div class="promo__container container">
+            <h1 class="promo__title h1">
+                Электронные <br class="br-lg"> перевозочные документы <span class="promo__note">в&nbsp;одном окне&nbsp;1С</span>
+            </h1>
+            <p class="promo__description">
+                1С-ЭПД&nbsp;— сервис для&nbsp;обмена транспортными накладными, путевыми
+                листами и&nbsp;другими перевозочными документами в&nbsp;электронном виде
+                между всеми участниками перевозок.
+            </p>
+            <div class="promo__buttons">
+                <a class="promo__button link button button--standart button--green" data-bs-toggle="modal" href="#anchor-modal" role="button">
+                    Подключить
+                </a>
+                <a class="promo__button button button--standart button--ghost link js-anchor" href="#anchor-rates" title="Смотреть тарифы">
+                    Смотреть тарифы
+                </a>
+            </div>
+            <ul class="promo__features list">
+                <li class="promo__feature">Интеграция с&nbsp;20+&nbsp;конфигурациями 1С</li>
+                <li class="promo__feature">Роуминг с&nbsp;операторами ЭДО</li>
+                <li class="promo__feature">Мобильное приложение для&nbsp;водителей</li>
+            </ul>
+        </div>
+        <div class="promo__formats formats container">
+            <div class="formats__container">
+                <h2 class="formats__title text-uppercase">Поддерживаемые форматы электронных перевозочных документов</h2>
+                <ul class="formats__list list">
+                    <li class="formats__item"><span class="formats__note">ЭПЛ</span> путевой лист</li>
+                    <li class="formats__item"><span class="formats__note">ЭТрН</span> транспортная накладная</li>
+                    <li class="formats__item">сопроводительная ведомость</li>
+                    <li class="formats__item">заказ-наряд</li>
+                    <li class="formats__item">заказ-заявка</li>
+                    <li class="formats__item">экспедиторская и складская расписки</li>
+                    <li class="formats__item">поручение экспедитору</li>
+                    <li class="formats__item">и другие логистические документы</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="about section-mb" id="anchor-about">
+        <div class="about__container container">
+            <p class="badge">Зачем переходить</p>
+            <h2 class="about__title h2">Почему бизнес переходит на&nbsp;ЭПД</h2>
+            <p class="about__description text-center">
+                <strong>С&nbsp;1&nbsp;сентября 2026&nbsp;года</strong> использование электронных транспортных накладных
+                и&nbsp;заказ-заявок становится <strong>обязательным</strong> для&nbsp;всех отраслей.
+                Планируется постепенный перевод всех перевозочных документов в&nbsp;электронный формат. <br>
+                Но&nbsp;дело не&nbsp;только в&nbsp;законе&nbsp;— переход на&nbsp;электронный документооборот
+                <br><strong>это&nbsp;реальная
+                возможность сократить расходы и&nbsp;ускорить работу</strong>.
+            </p>
+            <div class="about__cards">
+                <div class="about__card about__card--yellow">
+                    <img class="about__icon" src="assets/images/about-1.svg" alt="Декоративное изображение" width="51">
+                    <h3 class="about__subtitle">Экономия до&nbsp;70%</h3>
+                    <p class="about__descr">Отказ от&nbsp;бумаги, печати и&nbsp;физической доставки
+                        документов снижает логистические издержки.</p>
+                </div>
+                <div class="about__card about__card--blue">
+                    <img class="about__icon" src="assets/images/about-2.svg" alt="Декоративное изображение" width="48">
+                    <h3 class="about__subtitle">Ускорение процессов</h3>
+                    <p class="about__descr">Сокращается время на&nbsp;согласование и&nbsp;подписание.
+                        Груз уходит быстрее, а&nbsp;деньги поступают оперативнее.</p>
+                </div>
+                <div class="about__card about__card--coral">
+                    <img class="about__icon" src="assets/images/about-3.svg" alt="Декоративное изображение" width="48">
+                    <h3 class="about__subtitle">Минимизация ошибок</h3>
+                    <p class="about__descr">Данные переносятся в&nbsp;систему автоматически. Никакого
+                        ручного ввода, исправлений и&nbsp;возвратов документов.</p>
+                </div>
+                <div class="about__card about__card--lilac">
+                    <img class="about__icon" src="assets/images/about-4.svg" alt="Декоративное изображение" width="48">
+                    <h3 class="about__subtitle">Полная прозрачность</h3>
+                    <p class="about__descr">Вы всегда видите: кто создал, подписал документы и&nbsp;где сейчас
+                        находится груз. Документы не&nbsp;теряются, все хранится в&nbsp;электронном архиве.
+                        Прозрачная цепочка снимает вопросы при&nbsp;проверках госорганов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages section-mb" id="anchor-advantages">
+        <p class="badge">Преимущества сервиса</p>
+        <div class="advantages__container container">
+            <h2 class="advantages__title h2">Преимущества 1С-ЭПД</h2>
+            <p class="advantages__description text-center">Сервис разработан для&nbsp;тех, кто уже работает в&nbsp;1С&nbsp;—
+                никаких переключений между системами и&nbsp;долгой адаптации.</p>
+            <ol class="advantages__cards list">
+                <li class="advantages__card">
+                    <h3 class="advantages__subtitle h3">Полная интеграция с&nbsp;1С</h3>
+                    <ul class="advantages__items list">
+                        <li class="advantages__item">Все логистические документы в&nbsp;едином окне.</li>
+                        <li class="advantages__item">Привычный интерфейс&nbsp;— без&nbsp;необходимости длительного
+                            обучения.
+                        </li>
+                        <li class="advantages__item h3">Транспортные документы связаны с&nbsp;бухгалтерскими.</li>
+                    </ul>
+                </li>
+                <li class="advantages__card">
+                    <h3 class="advantages__subtitle h3">Быстрый старт</h3>
+                    <ul class="advantages__items list">
+                        <li class="advantages__item">Типовые сценарии закрывают большую часть задач.</li>
+                        <li class="advantages__item">Возможна доработка под&nbsp;нестандартные процессы.</li>
+                        <li class="advantages__item">Стартовый пакет&nbsp;— от&nbsp;600&nbsp;документов.</li>
+                    </ul>
+                </li>
+                <li class="advantages__card">
+                    <h3 class="advantages__subtitle">Роуминг с&nbsp;операторами</h3>
+                    <ul class="advantages__items list">
+                        <li class="advantages__item">Обменивайтесь документами с&nbsp;контрагентами, даже если&nbsp;они
+                            выбрали другого оператора ЭДО.
+                        </li>
+                        <li class="advantages__item">Подключение к&nbsp;роумингу&nbsp;— без&nbsp;дополнительной оплаты.</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <section class="solutions section-mb" id="anchor-solutions">
+        <div class="solutions__container container">
+            <p class="badge">Готовые решения</p>
+            <h2 class="solutions__title h2">Подходит любому виду бизнеса</h2>
+            <p class="solutions__description text-center">От&nbsp;локального перевозчика до&nbsp;крупного логистического
+                оператора&nbsp;— выберите сценарий под&nbsp;свои объёмы.</p>
+            <div class="solutions__cards">
+                <div class="solutions__card solutions__card--grey">
+                    <p class="solutions__card-badge text-uppercase">Малый и&nbsp;средний бизнес</p>
+                    <h3 class="solutions__subtitle">Подключение за&nbsp;1&nbsp;день</h3>
+                    <ul class="solutions__card-list list">
+                        <li class="solutions__list-item">Доступ в&nbsp;20+ конфигурациях&nbsp;1С, в&nbsp;том&nbsp;числе в&nbsp;1С:Фреш.</li>
+                        <li class="solutions__list-item">Мобильное приложение 1С-ЭПД для&nbsp;водителей и&nbsp;механиков.</li>
+                    </ul>
+                </div>
+                <div class="solutions__card solutions__card--black">
+                    <p class="solutions__card-badge solutions__card-badge--black text-uppercase">Крупный бизнес</p>
+                    <h3 class="solutions__subtitle">Кастомизация под&nbsp;ваши регламенты</h3>
+                    <ul class="solutions__card-list list">
+                        <li class="solutions__list-item">Интеграция в&nbsp;нетиповые конфигурации 1С.</li>
+                        <li class="solutions__list-item">1С-ЭПД: Клиентский API&nbsp;— простая интеграция и&nbsp;индивидуальные
+                            решения.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rates section-mb" id="anchor-rates">
+        <div class="rates__container container">
+            <p class="badge">Тарифы</p>
+            <h2 class="rates__title h2">Выберите удобный тариф</h2>
+            <div class="rates__cards">
+                <div class="rates__card">
+                    <p class="rates__card-badge text-uppercase">Постоплата</p>
+                    <h3 class="rates__subtitle">«1С-ЭДО.ЭПД» с&nbsp;постоплатой</h3>
+                    <p class="rates__card-descr">Активируется автоматически после начала использования
+                        электронных перевозочных документов в&nbsp;1С.</p>
+                    <ul class="rates__list list">
+                        <li class="rates__item">Оплата за&nbsp;фактическое использование.</li>
+                        <li class="rates__item">Без обязательств по&nbsp;объёму.</li>
+                        <li class="rates__item">Подходит для&nbsp;нерегулярных отправок.</li>
+                        <li class="rates__item">Расчёты ежемесячно.</li>
+                    </ul>
+                    <a class="rates__button link button button--white" data-bs-toggle="modal" href="#anchor-modal" role="button">
+                        Подключить
+                    </a>
+                </div>
+                <div class="rates__card rates__card--blue">
+                    <p class="rates__card-badge rates__card-badge--blue text-uppercase">Популярный</p>
+                    <h3 class="rates__subtitle">Предоплаченные пакеты «1С-ЭДО.ЭПД»</h3>
+                    <p class="rates__card-descr">Годовые пакеты с&nbsp;лимитом на&nbsp;12&nbsp;месяцев. Чем выше лимит&nbsp;—
+                        тем ниже стоимость одного документа.</p>
+                    <ul class="rates__list list">
+                        <li class="rates__item">Стартовый пакет&nbsp;— от&nbsp;600&nbsp;документов.</li>
+                        <li class="rates__item">Экономия при&nbsp;больших объёмах.</li>
+                        <li class="rates__item">Документы не&nbsp;сгорают в&nbsp;течение 12&nbsp;месяцев.</li>
+                        <li class="rates__item">Гибкое увеличение лимита по&nbsp;запросу.</li>
+                    </ul>
+                    <a class="rates__button link button button--green" data-bs-toggle="modal" href="#anchor-modal" role="button">
+                        Подобрать пакет
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="start section-mb" id="anchor-start">
+        <div class="start__container container">
+            <p class="badge">3&nbsp;шага</p>
+            <h2 class="start__title h2">Начните работу с&nbsp;1С-ЭПД уже сегодня</h2>
+            <p class="start__description text-center">Без долгих внедрений и&nbsp;дорогих интеграторов&nbsp;— настройка
+                типового сценария
+                происходит в&nbsp;течение одного рабочего дня.</p>
+            <div class="start__steps">
+                <div class="start__step">
+                    <h3 class="start__subtitle">Проанализируйте</h3>
+                    <p class="start__step-descr">Оцените, какими документами и&nbsp;в&nbsp;каком объёме вы&nbsp;обмениваетесь
+                        с&nbsp;контрагентами.</p>
+                </div>
+                <div class="start__step">
+                    <h3 class="start__subtitle">Обратитесь к&nbsp;нам</h3>
+                    <p class="start__step-descr">Мы поможем подобрать решение и&nbsp;настроим 1С-ЭПД под&nbsp;вашу
+                        конфигурацию&nbsp;1С.</p>
+                </div>
+                <div class="start__step">
+                    <h3 class="start__subtitle">Работайте</h3>
+                    <p class="start__step-descr">Без&nbsp;лишних бумаг, затрат и&nbsp;задержек.
+                        Полный электронный документооборот с&nbsp;первого дня.</p>
+                </div>
+            </div>
+            <div class="start__try try">
+                <div class="try__text">
+                    <h3 class="try__title h3">Сомневаетесь, что 1С&#8209;ЭПД подойдет вашей&nbsp;компании?</h3>
+                    <p class="try__description">Оцените удобство работы в&nbsp;сервисе прямо сейчас&nbsp;— без&nbsp;обязательств.</p>
+                </div>
+                <a class="try__button link button button--green" data-bs-toggle="modal" href="#anchor-modal" role="button">
+                    Попробовать 1С-ЭПД
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="questions section-mb" id="anchor-questions">
+        <div class="questions__container container">
+            <p class="badge">FAQ</p>
+            <div class="questions__wrapper">
+                <h2 class="questions__title h2">
+                    Ответы на&nbsp;часто задаваемые вопросы
+                </h2>
+                <div class="questions__accordion accordion" id="accordionQuestions">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button button link" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Кому нужно подключать ЭПД?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                             data-bs-parent="#accordionQuestions">
+                            <div class="accordion-body">
+                                <p>Всем, кто заказывает, организовывает, выполняет перевозку и&nbsp;получает грузы.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button button link collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Нужно ли регистрироваться в&nbsp;ГИС&nbsp;ЭПД?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                             data-bs-parent="#accordionQuestions">
+                            <div class="accordion-body">
+                                <p>Нет. Такой регистрации не&nbsp;существует. Достаточно установить решение для&nbsp;работы
+                                    с&nbsp;ЭПД, настроить ЭДО через оператора и&nbsp;обмен с&nbsp;контрагентами.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button button link collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Что водитель показывает инспектору ГИБДД?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                             data-bs-parent="#accordionQuestions">
+                            <div class="accordion-body">
+                                <p>Водитель должен предъявить специальный QR-код для&nbsp;проверки, он формируется ГИС
+                                    ЭПД и&nbsp;через оператора ИС&nbsp;ЭПД направляется перевозчику. В&nbsp;сервисе 1С-ЭПД
+                                    QR-код доступен в&nbsp;мобильном приложении. Инспектор считывает его ведомственным
+                                    устройством. Скриншоты не&nbsp;подойдут&nbsp;— код динамический.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button button link collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Как быть в&nbsp;ситуациях, когда отсутствует интернет?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                             data-bs-parent="#accordionQuestions">
+                            <div class="accordion-body">
+                                <p>В&nbsp;местах загрузки-выгрузки товара необходимо обеспечить сотрудников интернетом
+                                    и,&nbsp;при&nbsp;необходимости, мобильными устройствами.</p>
+                                <p>Перед рейсом водителю необходимо открыть мобильное приложение и&nbsp;проверить
+                                    отображение QR-кода, тогда он сохранится в&nbsp;кэше и&nbsp;будет доступен
+                                    без&nbsp;интернета.</p>
+                                <p>Отсутствие интернета у&nbsp;сотрудника ГИБДД&nbsp;– не&nbsp;является препятствием для&nbsp;проверки
+                                    информации о&nbsp;рейсе. Если QR-кода нет, или&nbsp;он не&nbsp;загружается у&nbsp;водителя,
+                                    инспектор ГИБДД может проверить рейс по&nbsp;госномеру транспортного средства.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button button link collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Нужно ли дублировать электронные документы в&nbsp;бумажном виде?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                             data-bs-parent="#accordionQuestions">
+                            <div class="accordion-body">
+                                <p>Нет, не&nbsp;нужно. Электронные документы&nbsp;— полноценная замена бумажным.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button button link collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Какая подпись используется при&nbsp;подписании ЭПД?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                             data-bs-parent="#accordionQuestions">
+                            <div class="accordion-body">
+                                <p>В&nbsp;соответствии с&nbsp;Правилами обмена ЭПД, утвержденными Постановлением
+                                    Правительства РФ №931 от&nbsp;21.05.2022, подписывается УКЭП, дополнительно на&nbsp;сотрудника
+                                    организации нужна МЧД.</p>
+                                <p>Водителю не&nbsp;требуется подписание ЭПД, достаточно сообщить диспетчеру
+                                    о&nbsp;погрузке/разгрузке товара, используя простую подпись (логин/пароль).
+                                    Сделать это&nbsp;можно, например, через&nbsp;мобильное приложение.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button button link collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Как самозанятым работать в&nbsp;системе ГИС ЭПД?
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                             data-bs-parent="#accordionQuestions">
+                            <div class="accordion-body">
+                                <p>На&nbsp;текущий момент работа с&nbsp;ЭПД для&nbsp;самозанятых не&nbsp;предусмотрена.
+                                    Нужно оформить ИП или&nbsp;юр.&nbsp;лицо.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEight">
+                            <button class="accordion-button button link collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Если перевозчик везёт несколько заказов разным получателям?
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                             data-bs-parent="#accordionQuestions">
+                            <div class="accordion-body">
+                                <p>На&nbsp;каждого получателя&nbsp;— отдельная ЭТрН. Путевой лист (ЭПЛ)&nbsp;— один на&nbsp;рейс.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingNine">
+                            <button class="accordion-button button link collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                Можно ли&nbsp;с&nbsp;помощью ЭПЛ вести учёт топлива?
+                            </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                             data-bs-parent="#accordionQuestions">
+                            <div class="accordion-body">
+                                <p>Да. Настраиваются дополнительные поля в&nbsp;1С (данные не&nbsp;уходят в&nbsp;ГИС,
+                                    но&nbsp;хранятся для&nbsp;внутреннего контроля).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="anchor-contact">
+        <div class="contact__container container">
+            <div class="contact__contacts">
+                <p class="contact__badge badge text-uppercase">Связаться</p>
+                <h2 class="contact__title h2">Остались вопросы?</h2>
+                <p class="contact__description">Мы поможем подобрать решение под&nbsp;вашу специфику и&nbsp;настроим
+                    1С-ЭПД без&nbsp;головной боли. Оставьте контакты&nbsp;— наш специалист свяжется с&nbsp;вами в&nbsp;ближайшее
+                    время.</p>
+                <ul class="contact__contacts-list list">
+                    <li class="contact__contacts-item">
+                        <img src="assets/images/phone.svg" class="contact__icon icon" width="40">
+                        <div class="contact__info">
+                            <p class="contact__type text-uppercase">Телефон</p>
+                            <a href="tel:+74950000000" class="contact__link link link--black">+7 (495) 000-00-00</a>
+                        </div>
+                    </li>
+                    <li class="contact__contacts-item">
+                        <img src="assets/images/mail.svg" class="contact__icon icon" width="40">
+                        <div class="contact__info">
+                            <p class="contact__type text-uppercase">E-mail</p>
+                            <a href="mailto:epd@example.ru" class="contact__link link link--black">epd@example.ru</a>
+                        </div>
+                    </li>
+                    <li class="contact__contacts-item">
+                        <img src="assets/images/location.svg" class="contact__icon icon" width="40">
+                        <div class="contact__info">
+                            <p class="contact__type text-uppercase">Адрес</p>
+                            <p class="contact__link">Москва, ул. Красная&nbsp;56</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact__feedback feedback">
+                <p class="feedback__badge badge text-uppercase">Связаться</p>
+                <h2 class="feedback__title h2">Получить консультацию</h2>
+                <form class="feedback__form" action="" method="post" onsubmit="submitForm(event)" novalidate>
+                    <fieldset class="feedback__block fieldset js-block">
+                        <input class="feedback__input input js-input js-name-input"
+                               type="text"
+                               id="anchor-contact-name"
+                               name="contact-name"
+                               placeholder="Имя"
+                               autocomplete="name"
+                               aria-required="true"
+                               aria-invalid="true"
+                               required>
+                        <div class="feedback__error js-error"></div>
+                    </fieldset>
+                    <fieldset class="feedback__block fieldset js-block">
+                        <input class="feedback__input input js-input js-company-input"
+                               type="text"
+                               id="anchor-contact-company"
+                               name="contact-company"
+                               placeholder="Компания"
+                               aria-required="true"
+                               aria-invalid="true"
+                               required>
+                        <div class="feedback__error js-error"></div>
+                    </fieldset>
+                    <fieldset class="feedback__block fieldset js-block">
+                        <input class="feedback__input input js-input js-phone-input"
+                               type="tel"
+                               id="anchor-contact-phone"
+                               name="contact-phone"
+                               placeholder="Номер телефона"
+                               autocomplete="tel"
+                               aria-required="true"
+                               aria-invalid="true"
+                               required>
+                        <div class="feedback__error js-error"></div>
+                    </fieldset>
+                    <fieldset class="feedback__block fieldset js-block">
+                        <input class="feedback__input input js-input js-email-input"
+                               type="email"
+                               id="anchor-contact-email"
+                               name="contact-email"
+                               placeholder="E‑mail"
+                               autocomplete="email"
+                               aria-required="true"
+                               aria-invalid="true"
+                               required>
+                        <div class="feedback__error js-error"></div>
+                    </fieldset>
+                    <fieldset class="feedback__block feedback__block--checkbox fieldset js-block">
+                        <div class="feedback__agreement">
+                            <label class="feedback__label check" for="anchor-contact-agreement">
+                                <input class="feedback__checkbox check__input input js-input js-agreement-input"
+                                       type="checkbox"
+                                       name="contact-agreement"
+                                       id="anchor-contact-agreement"
+                                       required>
+                                <span class="check__box"></span>
+                                Я подтверждаю правильность введённых данных и&nbsp;даю своё
+                                <a class="feedback__link link link--blue" href=""
+                                   title="Согласие на обработку персональных данных"
+                                   target="_blank">согласие на&nbsp;обработку персональных данных</a>.
+                            </label>
+                            <div class="feedback__error js-error"></div>
+                        </div>
+                    </fieldset>
+                    <button class="feedback__button button button--green" type="submit">
+                        Получить консультацию
+                    </button>
+                </form>
+<!--                Раскомментировать код для использования уведомления об успехе отправки формы-->
+<!--                <div class="feedback__result feedback__result&#45;&#45;success">-->
+<!--                    <p class="feedback__message">-->
+<!--                        Спасибо, заявка на консультацию отправлена.-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--                Раскомментировать код для использования уведомления об ошибке отправки формы-->
+<!--                <div class="feedback__result feedback__result&#45;&#45;error">-->
+<!--                    <p class="feedback__message">-->
+<!--                        Не удалось отправить заявку.-->
+<!--                        <br>-->
+<!--                        Попробуйте повторить попытку позже.-->
+<!--                    </p>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__nav">
+            <div class="footer__wrapper">
+                <img class="footer__logo" src="assets/images/logo.svg" alt="Логотип 1С-ЭПД">
+                <p class="footer__epd-info">Сервис обмена электронными перевозочными документами для&nbsp;пользователей
+                    1С и&nbsp;других платформ.</p>
+            </div>
+            <div class="footer__wrapper">
+                <p class="footer__title text-uppercase">Сервис</p>
+                <ul class="footer__list list">
+                    <li class="footer__item">
+                        <a class="footer__link link link--black js-anchor" href="#anchor-about" title="О сервисе">О сервисе</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link link link--black js-anchor" href="#anchor-advantages" title="Преимущества">Преимущества</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link link link--black js-anchor" href="#anchor-rates" title="Цены">Цены</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__wrapper">
+                <p class="footer__title text-uppercase">Поддержка</p>
+                <ul class="footer__list list">
+                    <li class="footer__item">
+                        <a class="footer__link link link--black js-anchor" href="#anchor-questions" title="Вопросы">Вопросы</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link link link--black js-anchor" href="#anchor-contact" title="Контакты">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__wrapper">
+                <p class="footer__title text-uppercase">Контакты</p>
+                <ul class="footer__list list">
+                    <li class="footer__item">
+                        <a class="footer__link link link--black" href="tel:+74950000000" title="Позвонить">
+                            +7 (495) 000-00-00
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link link link--black" href="mailto:epd@example.ru" title="Написать">
+                            epd@example.ru
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        Москва, ул. Красная, 56
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__info">
+            <div class="footer__copyrights">© 2026 1С-ЭПД. Все права защищены.</div>
+            <div class="footer__docs">
+                <a class="footer__doc-link footer__link link" href="" title="Политика конфиденциальности" target="_blank">
+                    Политика конфиденциальности
+                </a>
+                <a class="footer__doc-link footer__link link" href="" title="Договор оферты" target="_blank">
+                    Договор оферты
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="modal fade" id="anchor-modal" tabindex="-1" aria-labelledby="anchor-modal-label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <button class="modal__dismiss button button--icon" type="button" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img class="modal__close" src="assets/images/modal-close.svg" alt="Закрыть">
+            </button>
+            <div class="modal__feedback feedback">
+                <p class="feedback__badge badge text-uppercase">Связаться</p>
+                <h2 class="feedback__title h2" id="anchor-modal-label">Попробовать 1С-ЭПД</h2>
+                <form class="feedback__form" action="" method="post" onsubmit="submitForm(event)" novalidate>
+                    <fieldset class="feedback__block fieldset js-block">
+                        <input class="feedback__input input js-input js-name-input"
+                               type="text"
+                               id="anchor-modal-name"
+                               name="modal-name"
+                               placeholder="Имя"
+                               autocomplete="name"
+                               aria-required="true"
+                               aria-invalid="true"
+                               required>
+                        <div class="feedback__error js-error"></div>
+                    </fieldset>
+                    <fieldset class="feedback__block fieldset js-block">
+                        <input class="feedback__input input js-input js-company-input"
+                               type="text"
+                               id="anchor-modal-company"
+                               name="modal-company"
+                               placeholder="Компания"
+                               aria-required="true"
+                               aria-invalid="true"
+                               required>
+                        <div class="feedback__error js-error"></div>
+                    </fieldset>
+                    <fieldset class="feedback__block fieldset js-block">
+                        <input class="feedback__input input js-input js-phone-input"
+                               type="tel"
+                               id="anchor-modal-phone"
+                               name="modal-phone"
+                               placeholder="Номер телефона"
+                               autocomplete="tel"
+                               aria-required="true"
+                               aria-invalid="true"
+                               required>
+                        <div class="feedback__error js-error"></div>
+                    </fieldset>
+                    <fieldset class="feedback__block fieldset js-block">
+                        <input class="feedback__input input js-input js-email-input"
+                               type="email"
+                               id="anchor-modal-email"
+                               name="modal-email"
+                               placeholder="E‑mail"
+                               autocomplete="email"
+                               aria-required="true"
+                               aria-invalid="true"
+                               required>
+                        <div class="feedback__error js-error"></div>
+                    </fieldset>
+                    <fieldset class="feedback__block feedback__block--checkbox fieldset js-block">
+                        <div class="feedback__agreement">
+                            <label class="feedback__label check" for="anchor-modal-agreement">
+                                <input class="feedback__checkbox check__input input js-input js-agreement-input"
+                                       type="checkbox"
+                                       name="modal-agreement"
+                                       id="anchor-modal-agreement"
+                                       required>
+                                <span class="check__box"></span>
+                                Я подтверждаю правильность введённых данных и&nbsp;даю своё
+                                <a class="feedback__link link link--blue" href=""
+                                   title="Согласие на обработку персональных данных"
+                                   target="_blank">согласие на&nbsp;обработку персональных данных</a>.
+                            </label>
+                            <div class="feedback__error js-error"></div>
+                        </div>
+                    </fieldset>
+                    <button class="feedback__button button button--green" type="submit">
+                        Получить консультацию
+                    </button>
+                </form>
+<!--                Раскомментировать код для использования уведомления об успехе отправки формы-->
+<!--                <div class="feedback__result feedback__result&#45;&#45;success">-->
+<!--                    <p class="feedback__message">-->
+<!--                        Спасибо, заявка на консультацию отправлена.-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--                Раскомментировать код для использования уведомления об ошибке отправки формы-->
+<!--                <div class="feedback__result feedback__result&#45;&#45;error">-->
+<!--                    <p class="feedback__message">-->
+<!--                        Не удалось отправить заявку.-->
+<!--                        <br>-->
+<!--                        Попробуйте повторить попытку позже.-->
+<!--                    </p>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+<script src="assets/js/index.js"></script>

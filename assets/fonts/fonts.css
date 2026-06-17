@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Manrope";
+    src: url("Manrope/Manrope.eot");
+    src: url("Manrope/Manrope.eot?#iefix") format("embedded-opentype"),
+    url("Manrope/Manrope.woff") format("woff"),
+    url("Manrope/Manrope.woff2") format("woff2"),
+    url("Manrope/Manrope.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("Manrope/Manrope ExtraLight.eot");
+    src: url("Manrope/Manrope ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("Manrope/Manrope ExtraLight.woff") format("woff"),
+    url("Manrope/Manrope ExtraLight.woff2") format("woff2"),
+    url("Manrope/Manrope ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("Manrope/Manrope Medium.eot");
+    src: url("Manrope/Manrope Medium.eot?#iefix") format("embedded-opentype"),
+    url("Manrope/Manrope Medium.woff") format("woff"),
+    url("Manrope/Manrope Medium.woff2") format("woff2"),
+    url("Manrope/Manrope Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("Manrope/Manrope Semibold.eot");
+    src: url("Manrope/Manrope Semibold.eot?#iefix") format("embedded-opentype"),
+    url("Manrope/Manrope Semibold.woff") format("woff"),
+    url("Manrope/Manrope Semibold.woff2") format("woff2"),
+    url("Manrope/Manrope Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("Manrope/Manrope Bold.eot");
+    src: url("Manrope/Manrope Bold.eot?#iefix") format("embedded-opentype"),
+    url("Manrope/Manrope Bold.woff") format("woff"),
+    url("Manrope/Manrope Bold.woff2") format("woff2"),
+    url("Manrope/Manrope Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("Manrope/Manrope ExtraBold.eot");
+    src: url("Manrope/Manrope ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("Manrope/Manrope ExtraBold.woff") format("woff"),
+    url("Manrope/Manrope ExtraBold.woff2") format("woff2"),
+    url("Manrope/Manrope ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
