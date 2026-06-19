@@ -1,6 +1,7 @@
 :root {
 	--black: #0F1525;
 	--black-1: #2A3450;
+	--black-2: #090C14;
 	--white: #fff;
 	--green: #B6F08A;
 	--grey: #67708A;
@@ -458,6 +459,12 @@ p {
 
 .modal-backdrop.show {
 	opacity: 0.5;
+}
+
+@media (min-width: 1200px) {
+	.modal-dialog.modal-dialog-centered {
+		max-width: 590px;
+	}
 }
 
 @media (min-width: 576px) {
@@ -1319,7 +1326,9 @@ p {
 }
 
 .accordion-body p {
-    font-size: 15px;
+	color: var(--black-2);
+	font-weight: 500;
+    font-size: 16px;
     line-height: 24px;
 }
 
